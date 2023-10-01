@@ -385,7 +385,27 @@ table th {
  to be continued */
 
 section#safe-fonts {
-  padding: 20vh;
-  text-align: center;
+  padding-top: 20vh;
+  margin: 0 3rem;
+}
+
+.safe-fonts {
+  border-bottom: 1px solid var(--yellow);
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+.safe-fonts h1 {
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.safe-fonts-link {
+  text-decoration: underline;
+  color: var(--body);
+}
+
+.safe-fonts-link:hover {
   color: var(--yellow);
 }
