@@ -382,7 +382,7 @@ table th {
 }
 
 /* ====================================
- to be continued */
+ safe fonts */
 
 section#safe-fonts {
   padding-top: 20vh;
@@ -401,11 +401,10 @@ section#safe-fonts {
   letter-spacing: 0.3rem;
 }
 
-.safe-fonts-link {
-  text-decoration: underline;
+.safe-fonts p .safe-fonts-link {
   color: var(--body);
 }
 
-.safe-fonts-link:hover {
+.safe-fonts p .safe-fonts-link:hover {
   color: var(--yellow);
 }
